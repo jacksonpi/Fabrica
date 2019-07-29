@@ -1,5 +1,7 @@
 <?php
 
+include 'Carro.php';
+
  Class CarroLuxo extends Carro {
 
     private  $motor;
