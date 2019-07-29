@@ -1,5 +1,7 @@
 <?php
 
+include 'IMotor.php';
+
   class Motor1pontoZero implements IMotor {
 
     public function  ligar(){

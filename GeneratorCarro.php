@@ -5,7 +5,7 @@
 class GeneratorCarro
 {
     
-    private $carroBuilder;
+    private $carroBuilder = CarroBuilder::class;
     
     public function __construct($carroBuilder){
         $this->carroBuilder=$carroBuilder;
@@ -19,7 +19,7 @@ class GeneratorCarro
       $this->carroBuilder->buildAno($ano);
       $this->carroBuilder->buildModelo($modelo);
       $this->carroBuilder->buildNitroxido($nitroxido);
-      $this->carroBuilder->buildNitroxidoQT($nitroQT);
+      $this->carroBuilder->buildNitroQT($nitroQT);
       $this->carroBuilder->buildsuspensao($suspensao);
       $this->carroBuilder->buildPneus($pneus=[]);
       $this->carroBuilder->buildVelocidadeAtual($velocidadeAtual);
